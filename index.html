@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exploded Assembly Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="ui">
+    <label for="explodeRange">Explode:</label>
+    <input type="range" id="explodeRange" min="0" max="1" step="0.01" value="0">
+    <div id="info">Click on a part to see info</div>
+  </div>
+  <canvas id="viewer"></canvas>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
