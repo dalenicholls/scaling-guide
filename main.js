@@ -1,6 +1,6 @@
-import * as THREE from './libs/three.min.js';
-import { OrbitControls } from './libs/OrbitControls.js';
-import { GLTFLoader } from './libs/GLTFLoader.js';
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
 const canvas = document.getElementById('viewer');
 const scene = new THREE.Scene();
